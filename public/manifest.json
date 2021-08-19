@@ -1,7 +1,7 @@
 {
   "short_name": "Dipneet's Portfolio ",
   "name": "Portfolio app made with React",
-  "homepage":"https://dipneet.github.io/dipneetkaur",
+ 
   "icons": [
     {
       "src": "images/About.jpg",
@@ -14,13 +14,12 @@
 		"react": "^16.8.3",
 		"react-dom": "^16.8.3",
 		"react-scripts": "2.1.5",
-		"yarn": "^1.13.0"},
+		"yarn": "^1.13.0"
+  },
 	"scripts": {
 		"start": "react-scripts start",
 		"build": "react-scripts build",
-		"predeploy": "yarn run build",
-		"deploy": "gh-pages -d build",
-		"test": "react-scripts test",
+	  "test": "react-scripts test",
 		"eject": "react-scripts eject"},
   "start_url": ".",
   "display": "standalone",

@@ -95,9 +95,9 @@ export default class About extends Component {
             </div>
             <div className="col-md-4 text-center animate-box">
                 <div className="services color-4">
-                <span className="icon">
-                    <i className="icon-data" />
-                </span>
+                <span className="icon"> 
+                    <i className="icon-data" /> 
+                </span> 
                 <div className="desc">
                     <h3>Data Science & Machine Learning</h3>
                     <p>I gained proficiency in foundational topics of data science such as data manipulation (using Numpy, Pandas), visualization (using Plotly, Matplotlib & Seaborn), & data analysis with Statistics and Machine Learning (using Scikit-Learn)

@@ -20,7 +20,7 @@ export default class Projects extends Component {
 											<h3><b>Unveiled Universe</b></h3>
 											<span style={{color:"purple"}}>Application</span>
 											<p className="icon">
-												<span><a target="_blank" href="https://github.com/DIPNEET/unveiledUniverse"><i className="icon-github" /></a></span>
+												<span><a target="_blank" rel="noreferrer" href="https://github.com/DIPNEET/unveiledUniverse"><i className="icon-github" /></a></span>
 												{/* <span><a href="#"><i className="icon-share3" /></a></span>
 												<span><a href="#"><i className="icon-eye" /> 100</a></span>
 												<span><a href="#"><i className="icon-heart" /> 49</a></span> */}
@@ -36,7 +36,7 @@ export default class Projects extends Component {
 											<h3><b>Predictor</b></h3>
 											<span  style={{color:"purple"}}>Machine Learning</span>
 											<p className="icon">
-											<span><a target="_blank" href="https://github.com/DIPNEET/predictor"><i className="icon-github" /></a></span>
+											<span><a target="_blank" rel="noreferrer" href="https://github.com/DIPNEET/predictor"><i className="icon-github" /></a></span>
 												{/* <span><a href="#"><i className="icon-share3" /></a></span>
 												<span><a href="#"><i className="icon-eye" /> 100</a></span>
 												<span><a href="#"><i className="icon-heart" /> 49</a></span> */}

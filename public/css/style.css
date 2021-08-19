@@ -8,6 +8,7 @@
 
 body {
   font-family: "Quicksand", Arial, sans-serif;
+  
   font-weight: 400;
   font-size: 20px;
   line-height: 1.8;
@@ -377,7 +378,7 @@ body.offcanvas {
 .no-gutters {
   margin: 0;
   padding: 0; }
-
+.Rcontainer,
 .colorlib-experience,
 .colorlib-skills,
 .colorlib-education,
@@ -393,6 +394,7 @@ body.offcanvas {
   display: block; }
   @media screen and (max-width: 768px) {
     .colorlib-experience,
+    .Rcontainer,
     .colorlib-skills,
     .colorlib-education,
     .colorlib-blog,
@@ -647,11 +649,16 @@ body.offcanvas {
     .services.color-3 .icon2 i {
       color: #f9bf3f; }
   .services.color-4 {
-    width:1070px;
+    width:1078px;
+    /* overflow-x: scroll;  */
+    
+    /* align-content: center; */
     align-self: center;
     border-bottom: 2px solid #a84cb8; }
     .services.color-4 .icon2 i {
-      color: #a84cb8; }
+      color: #a84cb8; 
+     
+    }
   .services.color-5 {
     border-bottom: 2px solid #2fa499; }
   .services.color-6 {
@@ -1392,13 +1399,14 @@ body.offcanvas {
 
 .colorlib-nav-toggle {
   position: fixed;
-  left: -5px;
+  left: 0px;
   top: 0px;
   z-index: 9999;
+  font-weight: bolder;
   cursor: pointer;
   opacity: 1;
   visibility: hidden;
-  padding: 20px;
+  padding: 30px;
   -webkit-transition: 0.5s;
   -o-transition: 0.5s;
   transition: 0.5s; }
@@ -1440,10 +1448,5 @@ body.offcanvas {
   opacity: 0; }
 
 
-/* Banner */
-
-
-
-/* 
 
 

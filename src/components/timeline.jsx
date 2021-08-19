@@ -93,7 +93,7 @@ export default class Timeline extends Component {
             </div>
           </div>
         
-
+          </section>
   <button style={{  position: 'fixed',
   bottom: 20,
   right: 20,
@@ -121,44 +121,55 @@ export default class Timeline extends Component {
   </button>              
 
 
-</section>
+  {/* <article className="timeline-entry begin animate-box" data-animate-effect="fadeInBottom"> */}
+   {/* <div className="timeline-entry-inner"> */}
+      {/* <div className="timeline-icon color-2"> */}
     {/* Rotaract */}
-    <div class="container" style={{position:'relative',marginBottom:150}}>
+    <div class="container" style={{position:'relative',marginBottom:130,height:'100%'}}>
 
-        <img  height='320'src="images/img_bg.jpg" alt="Rotaract" style={{width:'calc(100% - 100px)',marginLeft:50}}/>
+        <img  height='400'src="images/img_bg.jpg" alt="Rotaract" style={{width:'calc(100% - 100px)',marginLeft:50}}/>
         <div class="text-block" style={{position: 'absolute',
-  top:30,
+  top:50,
   // right: 150,
-  bottom:20,
-  left:100,
-  width:1000,
-  height:500,
-  color: 'white',
+  bottom:0,
+  left:90,
+  width:'calc(100% - 200px)',
+  height:'100%',
+ 
   // paddingLeft: 20,
   // paddingRight: 20,
 display:'flex',
 flexDirection:'row'}}>
-        <img  height='210'src="images/rotaract.jpg" alt="Rotaract" style={{width:'130',borderRadius:100,paddingBottom:0,paddingTop:0}}/>
-        
+   
+        <img  height='210'src="images/rotaract.jpg" alt="Rotaract" style={{width:'calc(100% - 600px)',borderRadius:100,paddingBottom:0,paddingTop:0}}/>
+        {/* <div className="timeline-label"> */}
         <div style={{marginLeft:30}}>
 
-        <h4 style={{marginLeft:40,fontWeight:'bolder'}}>POSITIONS OF RESPONSIBILITY</h4>
-        <ul >
-        <li style={{color:'black',fontSize:20,fontWeight:'bold'}}><small>Club Literacy Committee Chairman, Rotaract Club, S.G.G.S.C.C, DU (2017-2018)</small></li>
-        <small style={{color:'green',fontSize:16}}>Project ‘SANKALP-Digital Literacy Center’ in collaboration with Navjyoti India Foundation, Delhi (2018)</small>
-        <li style={{color:'black',fontSize:20,fontWeight:'bold'}}><small>Décor Head, Rotaract Club, S.G.G.S.C.C, DU (2016-2017)</small></li>
-        <small style={{color:'green',fontSize:16}}>Project ‘SYAHI 4.0: Adult Literacy Center’ at Faridabad & ‘GURUKUL - Adult Literacy Center & Sewing Stitching Centre’ at Gurugram in collaboration with Divya Jyoti Jagran Sansthan (2017)</small>
-        <br/><small style={{color:'black',fontSize:16}}>Rotaract Club, SGGSCC under Rotaract District 3011, Delhi</small>
+        <h3 style={{marginLeft:0,fontWeight:'bold'}}>POSITIONS OF RESPONSIBILITY</h3>
+        <p style={{color:'black',fontSize:14}}>Rotaract Club, SGGSCC under Rotaract District 3011, Delhi</p>
+        {/* <ul > */}
+        <p style={{color:'black',fontSize:18,fontWeight:'bold'}}>Club Literacy Committee Chairman, Rotaract Club, S.G.G.S.C.C, DU (2017-2018)</p>
+        <p style={{color:'green',fontSize:14}}>Project ‘SANKALP-Digital Literacy Center’ in collaboration with Navjyoti India Foundation, Delhi (2018)</p>
+        <p style={{color:'black',fontSize:18,fontWeight:'bold'}}>Décor Head, Rotaract Club, S.G.G.S.C.C, DU (2016-2017)</p>
+        <p style={{color:'green',fontSize:14}}>Project ‘SYAHI 4.0: Adult Literacy Center’ at Faridabad & ‘GURUKUL - Adult Literacy Center & Sewing Stitching Centre’ at Gurugram in collaboration with Divya Jyoti Jagran Sansthan (2017)</p>
+       
 
-</ul>
+{/* </ul> */}
         </div>
-        
+        {/* </div> */}
            
             
+        {/* </div> */}
+        {/* </div> */}
+           
+           
         </div>
         </div>
-            {/* Rotaract */}
+      {/* </article> */}
+      {/* Rotaract */}
+           
       </div>
+      
     )
   }
 }
